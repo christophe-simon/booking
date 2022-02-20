@@ -3,5 +3,164 @@
 }
 
 body {
+    background-color: #F2F2F2;
     font-family: 'Raleway', sans-serif;
 }
+
+/* bleu (#0065FC) bleu plus clair (#DEEBFF) */
+
+/* Header */
+
+header {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navigation {
+    list-style-type: none;
+}
+
+#navigation > li {
+    display: inline-block;
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+}
+
+/* End of header */
+/* Main */
+
+main {
+    background-color: #FFF;
+}
+
+#filters {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#warning {
+    display: flex;
+}
+
+#housings {
+    display: flex;
+    flex-direction: row;
+}
+
+#housings_results {
+    background-color: #F2F2F2;
+    width: 66.66%;
+}
+
+#housings_results > div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#housings_results > div > div {
+    width: 33.33%;
+}
+
+#popular_housings {
+    background-color: #F2F2F2;
+    width: 33.33%;
+}
+
+#popular_housings > div {
+    display: flex;
+    flex-direction: column;
+}
+
+#popular_housings > div > div {
+    display: flex;
+}
+
+#popular_housings > div > div img {
+    width: 33.33%;
+}
+
+#popular_housings > div > div div {
+    width: 66.66%;
+}
+
+#activities > div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#activities > div > div {
+    width: 25%;
+}
+
+@media (max-width: 992px) {
+    #housings_results > div > div {
+        width: 50%;
+    }
+
+    #activities > div > div {
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    #housings {
+        flex-direction: column-reverse;
+    }
+
+    #housings_results {
+        background-color: #FFF;
+        width: 100%;
+    }
+
+    #housings_results > div > div {
+        width: 100%;
+    }
+
+    #popular_housings {
+        width: 100%;
+    }
+
+    #activities > div > div {
+        width: 100%;
+    }
+}
+
+/* End of main */
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_item {
+    width: 33.33%;
+}
+
+.footer_item ul {
+    list-style-type: none;
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+    footer {
+        flex-direction: column;
+    }
+    
+    .footer_item {
+        width: 100%;
+    }
+}
+
+/* End of footer */
+
