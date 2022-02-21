@@ -8,15 +8,17 @@
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://kit.fontawesome.com/b8c7d27c0a.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <div id="logo">
-            <img src="./images/booki.png" width="120" alt="Booki">
-        </div>
+        <a href="#">
+            <div id="logo">
+                <img src="./images/booki.png" width="120" alt="Booki">
+            </div>
+        </a>
         <nav>
             <ul id="navigation">
                 <li><a href="#housings_results">Hébergements</a></li>
@@ -29,21 +31,26 @@
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>
             <form action="post">
-                <label for="site-search">icon</label>
-                <input type="search" id="site-search" name="site-search" placeholder="Marseille, France">
-                <input type="submit" value="Rechercher">
-                <div id="filters">
-                    <p>Filtres</p>
-                    <button><i>icon</i>Economique</button>
-                    <button><i>icon</i>Familial</button>
-                    <button><i>icon</i>Romantique</button>
-                    <button><i>icon</i>Animaux autorisés</button>
-                </div>
-                <div id="warning">
-                    <i>icon</i>
-                    <p>Plus de 500 logements sont disponibles dans cette ville</p>
-                </div>
+                <label for="site_search">
+                    <i class="fa-solid fa-location-dot"></i>
+                </label>
+                <input type="search" id="site_search" name="site_search" placeholder="Marseille, France">
+                <button>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <span>Rechercher</span>
+                </button>
             </form>
+            <div id="filters">
+                <p>Filtres</p>
+                <button><i>icon</i>Economique</button>
+                <button><i>icon</i>Familial</button>
+                <button><i>icon</i>Romantique</button>
+                <button><i>icon</i>Animaux autorisés</button>
+            </div>
+            <div id="warning">
+                <i>icon</i>
+                <p>Plus de 500 logements sont disponibles dans cette ville</p>
+            </div>
         </section>
         <section id="housings">
             <section id="housings_results">

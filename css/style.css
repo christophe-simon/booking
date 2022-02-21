@@ -5,6 +5,7 @@
 body {
     background-color: #FFF;
     font-family: 'Raleway', sans-serif;
+    font-size: 14px;
 }
 
 ul {
@@ -28,11 +29,7 @@ header {
     display: flex;
 }
 
-#navigation a/*,
-#navigation a:link,
-#navigation a:visited,
-#navigation a:focus,
-#navigation a:active*/ {
+#navigation a {
     display: block;
     padding: 30px 20px;
     text-decoration: none;
@@ -81,14 +78,59 @@ header {
         border-top: 0px;
         border-bottom: 2px solid #0065FC;
     }
-
-
 }
 
 /* End of header */
 /* Main */
 
-main {
+h1, h2 {
+    font-size: 20px;
+}
+
+#search {
+    margin: 0 20px;
+}
+
+#search p {
+    margin-bottom: 20px;
+}
+
+#search form {
+    display: inline-flex;
+    margin-bottom: 30px;
+}
+
+#search form label {
+    background-color: #F2F2F2;
+    padding: 12px 15px;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+}
+
+#search form input {
+    border: 1px solid #F2F2F2;
+    border-left: none;
+    border-right: none;
+    padding: 0 15px;
+    font-weight: bold;
+}
+
+#search form button {
+    border: none;
+    border-radius: 0 10px 10px 0;
+    padding: 0 15px;
+    background-color: #0065FC;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#search form button i {
+    display: none;
+}
+
+#search form button span {
+    display: inline;
 }
 
 #filters {
@@ -161,6 +203,18 @@ main {
 }
 
 @media (max-width: 768px) {
+    #search form button {
+        border-radius: 10px 10px 10px 10px;
+    }
+
+    #search form button i {
+        display: inline;
+    }
+    
+    #search form button span {
+        display: none;
+    }
+
     #housings {
         flex-direction: column-reverse;
     }
