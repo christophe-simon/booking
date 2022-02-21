@@ -192,11 +192,6 @@ footer {
     justify-content: space-around;
 }
 
-footer::before,
-footer::after {
-    background-color: #F2F2F2;
-} 
-
 .footer_item {
     width: 33.33%;
 }
