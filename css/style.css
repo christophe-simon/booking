@@ -13,8 +13,6 @@ ul {
     margin: 0px;
 }
 
-/* bleu (#0065FC) bleu plus clair (#DEEBFF) */
-
 /* Header */
 
 header {
@@ -138,32 +136,99 @@ h1, h2 {
     flex-wrap: wrap;
 }
 
+#filters p {
+    margin-right: 40px;
+    font-weight: bold;
+}
+
+#filters button {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    border: 2px solid #D9D9D9;
+    border-radius: 20px;
+    padding: 0 20px;
+    height: 40px;
+    background-color: #FFF;
+}
+
+#filters button div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -22px;
+    width: 40px;
+    height: 40px;
+    background-color: #DEEBFF;
+    border-radius: 20px;
+
+}
+
 #warning {
     display: flex;
+    align-items: center;
+}
+
+#warning i {
+    margin-right: 10px;
 }
 
 #housings {
     display: flex;
     flex-direction: row;
+    margin: 0 20px;
 }
 
 #housings_results {
     background-color: #F2F2F2;
     width: 66.66%;
+    padding: 0 20px;
+    margin-right: 20px;
+    border-radius: 20px;
 }
 
 #housings_results > div {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: stretch;
 }
 
-#housings_results > div > div {
-    width: 33.33%;
+.housings_results_card {
+    border: 1px solid #D9D9D9;
+    border-radius: 20px;
+    width: 30%;
+    background-color: #FFF;
+    /*box-shadow: 2px 2px 2px #D9D9D9;*/
+    /*box-shadow: inset 2px #D9D9D9;*/
+}
+
+.housings_results_card_image {
+    margin: 3px 3px 0 3px;
+}
+
+.housings_results_card_image img {
+    border-radius: 17px 17px 0 0;
+    width: 100%;
+    object-fit: cover;
+}
+
+.housings_results_card_body {
+    margin: 0 10px 10px 10px;
+}
+
+.housings_results_card:nth-child(1),
+.housings_results_card:nth-child(2),
+.housings_results_card:nth-child(3) {
+    margin-bottom: 20px;
 }
 
 #popular_housings {
     background-color: #F2F2F2;
     width: 33.33%;
+    padding: 0 20px;
+    border-radius: 20px;
 }
 
 #popular_housings > div {
@@ -171,16 +236,35 @@ h1, h2 {
     flex-direction: column;
 }
 
-#popular_housings > div > div {
+.popular_housings_card {
     display: flex;
+    border: 1px solid #D9D9D9;
+    border-radius: 20px;
+    background-color: #FFF;
+    /*box-shadow: 2px 2px 2px #D9D9D9;*/
+    /*box-shadow: inset 2px #D9D9D9;*/
 }
 
-#popular_housings > div > div img {
+.popular_housings_card_image {
+    margin: 3px 3px 0 3px;
     width: 33.33%;
 }
 
-#popular_housings > div > div div {
+.popular_housings_card_image img {
+    border-radius: 17px 0 0 17px;
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.popular_housings_card_body {
+    margin: 0 10px 10px 10px;
     width: 66.66%;
+}
+
+.popular_housings_card:nth-child(1),
+.popular_housings_card:nth-child(2) {
+    margin-bottom: 20px;
 }
 
 #activities > div {
@@ -193,8 +277,12 @@ h1, h2 {
 }
 
 @media (max-width: 992px) {
-    #housings_results > div > div {
-        width: 50%;
+    .housings_results_card {
+        width: 47%;
+    }
+
+    .housings_results_card:nth-child(4) {
+        margin-bottom: 20px;
     }
 
     #activities > div > div {
@@ -217,19 +305,27 @@ h1, h2 {
 
     #housings {
         flex-direction: column-reverse;
+        margin: 0;
     }
 
     #housings_results {
         background-color: #FFF;
         width: 100%;
+        border-right: 0;
     }
 
-    #housings_results > div > div {
+    .housings_results_card {
         width: 100%;
+    }
+
+    .housings_results_card:nth-child(5) {
+        margin-bottom: 20px;
     }
 
     #popular_housings {
         width: 100%;
+        border-radius: 0;
+        padding-bottom: 20px;
     }
 
     #activities > div > div {
