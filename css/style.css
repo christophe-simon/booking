@@ -166,6 +166,11 @@ h1, h2 {
     cursor: pointer;
 }
 
+#filters button:hover {
+    background-color: #DEEBFF;
+    border: 2px solid #DEEBFF;
+}
+
 #filters button div {
     display: flex;
     justify-content: center;
@@ -215,6 +220,8 @@ h1, h2 {
     padding: 3px;
     width: 30%;
     background-color: #FFF;
+    text-decoration: none;
+    color: #000;
     /*box-shadow: 2px 2px 2px #D9D9D9;*/
     /*box-shadow: inset 2px #D9D9D9;*/
 }
@@ -264,12 +271,13 @@ h1, h2 {
 .popular_housings_card {
     display: flex;
     justify-content: space-between;
-    /*align-items: stretch;*/
     border: 1px solid #D9D9D9;
     border-radius: 20px;
     padding: 3px;
     height: 160px;
     background-color: #FFF;
+    color: #000;
+    text-decoration: none;
     /*box-shadow: 2px 2px 2px #D9D9D9;*/
     /*box-shadow: inset 2px #D9D9D9;*/
 }
@@ -318,6 +326,8 @@ h1, h2 {
     flex-direction: column;
     border: 1px solid #D9D9D9;
     border-radius: 20px;
+    color: #000;
+    text-decoration: none;
     /*box-shadow: 2px 2px 2px #D9D9D9;*/
     /*box-shadow: inset 2px #D9D9D9;*/
 }
@@ -466,11 +476,11 @@ h1, h2 {
     }
 
     #activities > div > div:nth-child(1) > .activities_card > .activities_card_image,
-    #activities > div > div:nth-child(2) > .activities_card > .activities_card_image:nth-child(1),
-    #activities > div > div:nth-child(2) > .activities_card > .activities_card_image:nth-child(2),
+    #activities > div > div:nth-child(2) > .activities_card:nth-child(1) > .activities_card_image,
+    #activities > div > div:nth-child(2) > .activities_card:nth-child(2) > .activities_card_image,
     #activities > div > div:nth-child(3) > .activities_card > .activities_card_image,
-    #activities > div > div:nth-child(4) > .activities_card > .activities_card_image:nth-child(1),
-    #activities > div > div:nth-child(4) > .activities_card > .activities_card_image:nth-child(2) {
+    #activities > div > div:nth-child(4) > .activities_card:nth-child(1) > .activities_card_image,
+    #activities > div > div:nth-child(4) > .activities_card:nth-child(2) > .activities_card_image {
         height: 300px;
     }
 
@@ -490,11 +500,11 @@ h1, h2 {
     }
 
     #activities > div > div:nth-child(1) > .activities_card > .activities_card_image,
-    #activities > div > div:nth-child(2) > .activities_card > .activities_card_image:nth-child(1),
-    #activities > div > div:nth-child(2) > .activities_card > .activities_card_image:nth-child(2),
+    #activities > div > div:nth-child(2) > .activities_card:nth-child(1) > .activities_card_image,
+    #activities > div > div:nth-child(2) > .activities_card:nth-child(2) > .activities_card_image,
     #activities > div > div:nth-child(3) > .activities_card > .activities_card_image,
-    #activities > div > div:nth-child(4) > .activities_card > .activities_card_image:nth-child(1),
-    #activities > div > div:nth-child(4) > .activities_card > .activities_card_image:nth-child(2) {
+    #activities > div > div:nth-child(4) > .activities_card:nth-child(1) > .activities_card_image,
+    #activities > div > div:nth-child(4) > .activities_card:nth-child(2) > .activities_card_image {
         height: 200px;
     }
 }
@@ -505,11 +515,11 @@ h1, h2 {
     }
 
     #activities > div > div:nth-child(1) > .activities_card > .activities_card_image,
-    #activities > div > div:nth-child(2) > .activities_card > .activities_card_image:nth-child(1),
-    #activities > div > div:nth-child(2) > .activities_card > .activities_card_image:nth-child(2),
+    #activities > div > div:nth-child(2) > .activities_card:nth-child(1) > .activities_card_image,
+    #activities > div > div:nth-child(2) > .activities_card:nth-child(2) > .activities_card_image,
     #activities > div > div:nth-child(3) > .activities_card > .activities_card_image,
-    #activities > div > div:nth-child(4) > .activities_card > .activities_card_image:nth-child(1),
-    #activities > div > div:nth-child(4) > .activities_card > .activities_card_image:nth-child(2) {
+    #activities > div > div:nth-child(4) > .activities_card:nth-child(1) > .activities_card_image,
+    #activities > div > div:nth-child(4) > .activities_card:nth-child(2) > .activities_card_image {
         height: 100px;
     }
 }
