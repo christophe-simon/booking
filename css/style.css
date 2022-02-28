@@ -13,6 +13,14 @@ ul {
     margin: 0px;
 }
 
+.active_color {
+    color: #0065FC;
+}
+
+.inactive_color {
+    color: #F2F2F2;
+}
+
 /* Header */
 
 header {
@@ -150,6 +158,7 @@ h1, h2 {
     padding: 0 20px;
     height: 40px;
     background-color: #FFF;
+    cursor: pointer;
 }
 
 #filters button div {
@@ -171,6 +180,7 @@ h1, h2 {
 
 #warning i {
     margin-right: 10px;
+    margin-bottom: 7px;
 }
 
 #housings {
@@ -226,31 +236,45 @@ h1, h2 {
     margin-bottom: 20px;
 }
 
+/*.customers_reviews {
+    position: absolute;
+    bottom: 0;
+}*/
+
 #popular_housings {
     background-color: #F2F2F2;
     width: 33.33%;
-    padding: 0 20px;
+    padding: 0 20px 20px 20px;
     border-radius: 20px;
 }
 
 #popular_housings > div {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .popular_housings_card {
     display: flex;
+    justify-content: space-between;
+    /*align-items: stretch;*/
     border: 1px solid #D9D9D9;
     border-radius: 20px;
     padding: 3px;
+    height: 160px;
     background-color: #FFF;
     /*box-shadow: 2px 2px 2px #D9D9D9;*/
     /*box-shadow: inset 2px #D9D9D9;*/
 }
 
+.popular_housings_card:nth-child(1),
+.popular_housings_card:nth-child(2) {
+    margin-bottom: 20px;
+}
+
 .popular_housings_card_image {
-    width: 33%;
-    height: 100px;
+    width: 30%;
+    height: 100%;
 }
 
 .popular_housings_card_image img {
@@ -261,13 +285,10 @@ h1, h2 {
 }
 
 .popular_housings_card_body {
+    display: flex;
+    flex-direction: column;
     margin: 0 10px;
-    /*width: 66%;*/
-}
-
-.popular_housings_card:nth-child(1),
-.popular_housings_card:nth-child(2) {
-    margin-bottom: 20px;
+    width: 60%;
 }
 
 #activities {
@@ -319,18 +340,18 @@ h1, h2 {
     width: 100%;
 }
 
-#activities > div > div:nth-child(1) .activities_card_image,
-#activities > div > div:nth-child(3) .activities_card_image {
+#activities > div > div:nth-child(1) > .activities_card > .activities_card_image,
+#activities > div > div:nth-child(3) > .activities_card > .activities_card_image {
     height: 450px;
 }
 
-#activities > div > div:nth-child(2) .activities_card_image:nth-child(1),
-#activities > div > div:nth-child(4) .activities_card_image:nth-child(2) {
+#activities > div > div:nth-child(2) > .activities_card:nth-child(1) > .activities_card_image,
+#activities > div > div:nth-child(4) > .activities_card:nth-child(2) > .activities_card_image {
     height: 210px;
 }
 
-#activities > div > div:nth-child(2) .activities_card_image:nth-child(2),
-#activities > div > div:nth-child(4) .activities_card_image:nth-child(1) {
+#activities > div > div:nth-child(2) > .activities_card:nth-child(2) > .activities_card_image,
+#activities > div > div:nth-child(4) > .activities_card:nth-child(1) > .activities_card_image {
     height: 170px;
 }
 
@@ -355,10 +376,15 @@ h1, h2 {
         margin-bottom: 20px;
     }
 
+    .popular_housings_card {
+        height: 200px;
+    }
+
     #activities > div > div {
         width: 48%;
     }
 }
+
 
 @media (max-width: 768px) {
     #search form button {
@@ -402,6 +428,15 @@ h1, h2 {
         padding-bottom: 20px;
     }
 
+    .popular_housings_card {
+        height: 308px;
+    }
+
+    .popular_housings_card_image {
+        width:  200px;
+        height: 300px;
+    }
+
     #activities > div > div {
         width: 100%;
     }
@@ -436,6 +471,14 @@ h1, h2 {
 
 @media (max-width: 600px) {
     .housings_results_card_image {
+        height: 200px;
+    }
+
+    .popular_housings_card {
+        height: 208px;
+    }
+
+    .popular_housings_card_image {
         height: 200px;
     }
 
