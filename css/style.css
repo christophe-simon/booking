@@ -21,6 +21,11 @@ ul {
     color: #F2F2F2;
 }
 
+.blank_space {
+    flex: 1;
+}
+
+
 /* Header */
 
 header {
@@ -214,6 +219,12 @@ h1, h2 {
     /*box-shadow: inset 2px #D9D9D9;*/
 }
 
+.housings_results_card:nth-child(1),
+.housings_results_card:nth-child(2),
+.housings_results_card:nth-child(3) {
+    margin-bottom: 20px;
+}
+
 .housings_results_card_image {
     width: 100%;
     height: 100px;
@@ -227,25 +238,21 @@ h1, h2 {
 }
 
 .housings_results_card_body {
+    display: flex;
+    flex-direction: column;
     margin: 0 10px 10px 10px;
 }
-
-.housings_results_card:nth-child(1),
-.housings_results_card:nth-child(2),
-.housings_results_card:nth-child(3) {
-    margin-bottom: 20px;
-}
-
-/*.customers_reviews {
-    position: absolute;
-    bottom: 0;
-}*/
 
 #popular_housings {
     background-color: #F2F2F2;
     width: 33.33%;
     padding: 0 20px 20px 20px;
     border-radius: 20px;
+}
+
+#popular_housings h2 {
+    display: flex;
+    justify-content: space-between;
 }
 
 #popular_housings > div {
