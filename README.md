@@ -1,4 +1,4 @@
-#Responsive website homepage for a housing rentals booking company
+# Responsive website homepage for a housing rentals booking company
 
 Requirements:
 - Use of html/css
