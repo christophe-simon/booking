@@ -133,6 +133,7 @@ h1, h2 {
     background-color: #0065FC;
     color: white;
     font-weight: bold;
+    cursor: pointer;
 }
 
 #search form button i {
@@ -162,7 +163,6 @@ h1, h2 {
     padding: 0 20px;
     height: 40px;
     background-color: #FFF;
-    cursor: pointer;
 }
 
 #filters button:hover {
