@@ -1,21 +1,15 @@
 # Responsive website homepage for a housing rentals booking company
 
-
-
-
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Booki Screen Shot][product-screenshot]](https://example.com)
 
 This project is a responsive website homepage for a housing rentals booking company, made as a student project.
 
 It was made from these mockups:
-- desktop
-- smartphone
-
+- [desktop]()
+- [smartphone]
 
 The requirements were:
 - Use of html/css
@@ -29,7 +23,7 @@ The requirements were:
 - Has to be w3c valid
 
 You can have a look on this project here:
-https://christophe-simon.github.io/booking/
+https://christophe-simon.github.io/booki/
 
 ### Built With
 
@@ -69,7 +63,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_-->
 <!-- CONTACT -->
 ## Contact
 
-Christophe Simon, [personnal website](https:www.csimon.info)
+Christophe Simon, [personnal website](https://www.csimon.info)
 
 Project Link: [https://github.com/christophe-simon/booki](https://github.com/christophe-simon/booki)
 
@@ -78,4 +72,5 @@ Project Link: [https://github.com/christophe-simon/booki](https://github.com/chr
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* This readme version is a simplified version of this [github repository](https://github.com/othneildrew/Best-README-Template) by Othneildrew and a use of this [github repository](https://github.com/NicolasBrondin/basic-readme-template) by NicolasBrondin
+* This readme version is a simplified version of this [github repository](https://github.com/othneildrew/Best-README-Template) by Othneildrew
+* This readme version is a customized version of this [github repository](https://github.com/NicolasBrondin/basic-readme-template) by NicolasBrondin
