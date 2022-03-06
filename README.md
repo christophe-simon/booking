@@ -3,13 +3,13 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Booki Screen Shot][product-screenshot]](https://github.com/christophe-simon/booki/blob/main/project/Screenshot-desktop.png)
+![Booki Screen Shot](project/Screenshot-desktop.png)
 
 This project is a responsive website homepage for a housing rentals booking company, made as a student project.
 
 It was made from these mockups:
-- [desktop](https://github.com/christophe-simon/booki/blob/main/project/Mockup-desktop.png)
-- [smartphone](https://github.com/christophe-simon/booki/blob/main/project/Mockup-smartphone.png)
+- [desktop](project/Mockup-desktop.png)
+- [smartphone](project/Mockup-smartphone.png)
 
 The requirements were:
 - Use of html/css
@@ -22,7 +22,7 @@ The requirements were:
 - Forbidding of a css framework as Bootstrap and of a preprocessor as Sass
 - Has to be w3c valid
 
-You can have a look on this project here:
+You can have a look on this website homepage here:
 https://christophe-simon.github.io/booki/
 
 ### Built With
@@ -30,6 +30,7 @@ https://christophe-simon.github.io/booki/
 * Markdown, Html, Css
 * Git, Github
 * VS Code
+* Love
 
 <!-- GETTING STARTED -->
 ## Getting Started
