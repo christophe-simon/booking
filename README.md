@@ -3,13 +3,13 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Booki Screen Shot][product-screenshot]](https://example.com)
+[![Booki Screen Shot][product-screenshot]](https://github.com/christophe-simon/booki/blob/main/project/Screenshot-desktop.png)
 
 This project is a responsive website homepage for a housing rentals booking company, made as a student project.
 
 It was made from these mockups:
-- [desktop]()
-- [smartphone]
+- [desktop](https://github.com/christophe-simon/booki/blob/main/project/Mockup-desktop.png)
+- [smartphone](https://github.com/christophe-simon/booki/blob/main/project/Mockup-smartphone.png)
 
 The requirements were:
 - Use of html/css
