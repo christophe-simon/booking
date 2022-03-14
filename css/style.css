@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box; /* box-sizing est appliqué à tous les éléments */
+    box-sizing: border-box;
 }
 
 body {
@@ -21,6 +21,10 @@ ul {
     color: #F2F2F2;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 .blank_space {
     flex: 1;
 }
@@ -33,6 +37,10 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
+}
+
+#logo img {
+    width: 120px;
 }
 
 #navigation {
@@ -82,7 +90,7 @@ header {
     #navigation a {
         padding: 30px 20px 15px 20px;
         border-top: 0px;
-        border-bottom: 2px solid transparent;
+        border-bottom: 2px solid #F2F2F2;
     }
 
     #navigation a:hover {
@@ -168,6 +176,7 @@ h1, h2 {
 #filters button:hover {
     background-color: #DEEBFF;
     border: 2px solid #DEEBFF;
+    cursor: pointer;
 }
 
 #filters button span {
@@ -190,6 +199,10 @@ h1, h2 {
 #warning i {
     margin-right: 10px;
     margin-bottom: 7px;
+    background-color: #0065FC;
+    color: #FFF;
+    border: 1px solid #DEEBFF;
+    border-radius: 30px;
 }
 
 #housings {
@@ -248,6 +261,10 @@ h1, h2 {
     margin: 0 10px 10px 10px;
 }
 
+.housings_results_card_body > h3, .housings_results_card_body > p {
+    margin: 10px 0 0 0;
+}
+
 #housings_results > p > a {
     color: #000;
     font-size: 16px;
@@ -279,7 +296,7 @@ h1, h2 {
     border: 1px solid #D9D9D9;
     border-radius: 20px;
     padding: 3px;
-    height: 160px;
+    height: 150px;
     background-color: #FFF;
     color: #000;
     text-decoration: none;
@@ -308,6 +325,14 @@ h1, h2 {
     flex-direction: column;
     margin: 0 10px;
     width: 60%;
+}
+
+.popular_housings_card_body > h3 {
+    margin: 10px 0;
+}
+
+.popular_housings_card_body > p {
+    margin: 0 0 10px 0;
 }
 
 #activities {
@@ -397,7 +422,7 @@ h1, h2 {
     }
 
     .popular_housings_card {
-        height: 250px;
+        height: 180px;
     }
 
     #activities > div > div {
@@ -449,12 +474,12 @@ h1, h2 {
     }
 
     .popular_housings_card {
-        height: 308px;
+        height: 208px;
     }
 
     .popular_housings_card_image {
         width:  200px;
-        height: 300px;
+        height: 200px;
     }
 
     #activities > div > div {
@@ -489,44 +514,6 @@ h1, h2 {
 
 }
 
-@media (max-width: 600px) {
-    .housings_results_card_image {
-        height: 200px;
-    }
-
-    .popular_housings_card {
-        height: 208px;
-    }
-
-    .popular_housings_card_image {
-        height: 200px;
-    }
-
-    #activities > div > div:nth-child(1) > .activities_card > .activities_card_image,
-    #activities > div > div:nth-child(2) > .activities_card:nth-child(1) > .activities_card_image,
-    #activities > div > div:nth-child(2) > .activities_card:nth-child(2) > .activities_card_image,
-    #activities > div > div:nth-child(3) > .activities_card > .activities_card_image,
-    #activities > div > div:nth-child(4) > .activities_card:nth-child(1) > .activities_card_image,
-    #activities > div > div:nth-child(4) > .activities_card:nth-child(2) > .activities_card_image {
-        height: 200px;
-    }
-}
-
-@media (max-width: 400px) {
-    .housings_results_card_image {
-        height: 100px;
-    }
-
-    #activities > div > div:nth-child(1) > .activities_card > .activities_card_image,
-    #activities > div > div:nth-child(2) > .activities_card:nth-child(1) > .activities_card_image,
-    #activities > div > div:nth-child(2) > .activities_card:nth-child(2) > .activities_card_image,
-    #activities > div > div:nth-child(3) > .activities_card > .activities_card_image,
-    #activities > div > div:nth-child(4) > .activities_card:nth-child(1) > .activities_card_image,
-    #activities > div > div:nth-child(4) > .activities_card:nth-child(2) > .activities_card_image {
-        height: 100px;
-    }
-}
-
 /* End of main */
 /* Footer */
 
@@ -551,6 +538,15 @@ footer {
 
 .footer_item li {
     margin-bottom: 10px;
+}
+
+.footer_item a {
+    text-decoration: none;
+    color: #000;
+}
+
+.footer_item a:hover {
+    text-decoration: underline #000;
 }
 
 @media (max-width: 992px) {
