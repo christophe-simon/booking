@@ -15,7 +15,7 @@
 
 ## About The Project
 
-<img src="project/screenshot.jpg" alt="Booki screenshot">
+![Booki screenshot][product-screenshot]
 
 This project is a responsive website homepage for a housing rentals booking company, made as a student project.
 
@@ -99,3 +99,4 @@ Project Link: [https://github.com/csimon-web/booki](https://github.com/csimon-we
 [issues-url]: https://github.com/csimon-web/booki/issues
 [license-shield]: https://img.shields.io/github/license/csimon-web/booki.svg?style=flat-square
 [license-url]: https://github.com/csimon-web/booki/blob/master/LICENSE.txt
+[product-screenshot]: project/screenshot.jpg
