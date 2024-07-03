@@ -1,4 +1,4 @@
-# Booki: responsive website homepage for a housing rentals booking company
+# Booki: responsive website homepage for a french housing rentals booking company
 
 <!-- PROJECT SHIELDS -->
 <!--
