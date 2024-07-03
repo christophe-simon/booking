@@ -15,14 +15,14 @@
 
 ## About The Project
 
-![Booki screenshot][product-screenshot]
+![Booki screenshot](project/screenshot.jpg)
 
 This project is a responsive website homepage for a housing rentals booking company, made as a student project.
 
 It was made from these mockups:
 
-- [desktop](project/Mockup-desktop.png)
-- [smartphone](project/Mockup-smartphone.png)
+- [desktop](project/mockup-desktop.png)
+- [smartphone](project/mockup-smartphone.png)
 
 The requirements were:
 
@@ -89,14 +89,14 @@ Project Link: [https://github.com/csimon-web/booki](https://github.com/csimon-we
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/csimon-web/basic-readme-template.svg?style=flat-square
-[contributors-url]: https://github.com/csimon-web/basic-readme-template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/csimon-web/basic-readme-template.svg?style=flat-square
-[forks-url]: https://github.com/csimon-web/basic-readme-template/network/members
-[stars-shield]: https://img.shields.io/github/stars/csimon-web/basic-readme-template.svg?style=flat-square
-[stars-url]: https://github.com/csimon-web/basic-readme-template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/csimon-web/basic-readme-template.svg?style=flat-square
-[issues-url]: https://github.com/csimon-web/basic-readme-template/issues
-[license-shield]: https://img.shields.io/github/license/csimon-web/basic-readme-template.svg?style=flat-square
-[license-url]: https://github.com/csimon-web/basic-readme-template/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/csimon-web/booki.svg?style=flat-square
+[contributors-url]: https://github.com/csimon-web/booki/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/csimon-web/booki.svg?style=flat-square
+[forks-url]: https://github.com/csimon-web/booki/network/members
+[stars-shield]: https://img.shields.io/github/stars/csimon-web/booki.svg?style=flat-square
+[stars-url]: https://github.com/csimon-web/booki/stargazers
+[issues-shield]: https://img.shields.io/github/issues/csimon-web/booki.svg?style=flat-square
+[issues-url]: https://github.com/csimon-web/booki/issues
+[license-shield]: https://img.shields.io/github/license/csimon-web/booki.svg?style=flat-square
+[license-url]: https://github.com/csimon-web/booki/blob/master/LICENSE.txt
 [product-screenshot]: project/screenshot.jpg
