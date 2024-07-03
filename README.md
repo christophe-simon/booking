@@ -15,9 +15,7 @@
 
 ## About The Project
 
-<img src="project/screenshot.jpg" alt="Booki screenshot">
-
-![Booki screenshot][product-screenshot]
+[![Booki screenshot][product-screenshot]](#)
 
 This project is a responsive website homepage for a housing rentals booking company, made as a student project.
 
