@@ -21,8 +21,8 @@ This project is a responsive website homepage for a housing rentals booking comp
 
 It was made from these mockups:
 
-- [desktop](project/mockup-desktop.png)
-- [smartphone](project/mockup-smartphone.png)
+- [desktop](project/desktop-mockup.png)
+- [smartphone](project/smartphone-mockup.png)
 
 The requirements were:
 
